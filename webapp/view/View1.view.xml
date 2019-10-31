@@ -1,0 +1,114 @@
+<mvc:View controllerName="verticallay.months.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+xmlns:v="sap.ui.layout">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Text text = 'Hi! I"m Gargi Sehgal... working as a trainee consultant' ></Text>
+			
+						
+							<v:VerticalLayout>
+							
+							<Button
+        id="jan"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="January"
+        press="onShowHello"
+        class="sapUiSmallMargin">
+							
+						</Button>
+        	<Button
+        id="feb"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="February"
+        press="onShowHello"
+        class="sapUiSmallMargin">
+        		
+        	</Button>
+							
+							
+							
+						
+						
+     	<Button
+        id="mar"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="March"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="apr"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="april"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="may"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="May"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="juner"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="june"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="july"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="july"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="august"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="august"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="september"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="september"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="october"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="october"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="november"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="november"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        	<Button
+        id="december"
+        type="Emphasized"
+        icon="sap-icon://sap-ui5"
+        text="december"
+        press="onShowHello"
+        class="sapUiSmallMargin"/>
+        
+						</v:VerticalLayout>
+					
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
